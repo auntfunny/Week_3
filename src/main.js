@@ -17,7 +17,7 @@ End
 
 **********************************************************************************************/
 
-/* 
+
 let grade1 = Number(prompt("Please enter 1st grade from 0 to 100: "));
 let grade2 = Number(prompt("Please enter 2st grade from 0 to 100: "));
 let grade3 = Number(prompt("Please enter 3st grade from 0 to 100: "));
@@ -34,7 +34,7 @@ if (average >= 90){
 } else{
     alert(`Not good. The average is ${average}`);
 } 
-*/
+
 
 /*EJERCICIO 2 *****************************************************************************
 
@@ -62,18 +62,18 @@ End
 *********************************************************************************************/
 
 
-/* const TARIFF = 10;
+const TARIFF = 10;
 
-let age = parseInt(prompt("Please enter your age: "));
+let edad = parseInt(prompt("Please enter your age: "));
 let student = prompt("Are you a student (yes or no): ");
 let distance = Number(prompt("Please enter the amount of kilometers traveled: "));
 
 let discount = 0;
 let total = TARIFF;
 
-if(age < 18){
+if(edad < 18){
     total *= 0.5;
-} else if(age > 60){
+} else if(edad > 60){
     total *= 0.4;
 } else if (student === "Yes" || student === "yes"){
     total *= 0.75;
@@ -83,7 +83,7 @@ if(distance >= 30){
     total *= 1.1;
 }
 
-alert(`Your total price is $${total}`); */
+alert(`Your total price is $${total}`);
 
 
 /* EJERCICIO 3 ********************************************************************************
@@ -110,7 +110,7 @@ End
 **********************************************************************************************/
 
 
-/* let operation = Number(prompt(`Enter number of desired conversion:
+let operation = Number(prompt(`Enter number of desired conversion:
     1. Convert from Celsius to Fahrenheit
     2. Convert from Fahrenheit to Celsius
     3. Convert from Kilometers to Meters
@@ -142,7 +142,7 @@ switch(operation){
         break;
     default:
         alert("Invalid Option");
-} */
+}
 
 
 /* EJERCICIO 4 *******************************************************************************
@@ -167,7 +167,7 @@ End
  
 *********************************************************************************************/
 
-/* let price = Number(prompt("Enter the total cost: "));
+let price = Number(prompt("Enter the total cost: "));
 
 
 let totalDiscount = 0;
@@ -184,7 +184,7 @@ if(price > 500){
 
 price -= (price * (totalDiscount / 100));
 
-alert(`Your total discount is ${totalDiscount}% and your total price is $${price}.`) */
+alert(`Your total discount is ${totalDiscount}% and your total price is $${price}.`)
 
 /* EJERCICIO 5 ****************************************************************************
 
@@ -208,7 +208,7 @@ End
 ******************************************************************************************/
 
 
-/* let birthYear = parseInt(prompt("Enter your birth year: "));
+let birthYear = parseInt(prompt("Enter your birth year: "));
 let currentYear = parseInt(prompt("Enter the current year: "));
 let birthdayPassed = prompt("Has your birthday passed this year? (Yes or No)")
 
@@ -228,7 +228,7 @@ if(age >= 0 && age < 18){
 } else {
     alert("Invalid Age");
 }
- */
+
 
 
 
