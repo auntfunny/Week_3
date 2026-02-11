@@ -68,6 +68,7 @@ if(tries < 4){
         switch(action){
             case(1):
                 balance += Number(prompt("Please enter deposit amount"));
+                alert(`Deposit successful`);
                 break;
             case(2):
                 let withdrawalAmount = Number(prompt("Please enter withdrawal amount:"))
@@ -78,6 +79,7 @@ if(tries < 4){
                 } else {
                     balance -= withdrawalAmount;
                     dailyTransaction += withdrawalAmount;
+                    alert(`Withdrawal successful, please take your money.`)
                 }
                 break;
             case(3):
